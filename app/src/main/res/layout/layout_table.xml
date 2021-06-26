@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/baby_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/colon" />
+
+        <EditText
+            android:id="@+id/rname"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_span="2"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:hint="Enter Baby Name"
+            />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/cardview_dark_background" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:text="@string/dob" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:text="@string/colon" />
+
+        <EditText
+            android:id="@+id/edit_dob"
+            android:layout_width="130.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:ems="10"
+            android:focusable="false"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btn_baby_DOB"
+            android:layout_width="40.0dip"
+            android:layout_height="50.0dip"
+            android:layout_margin="1.0dip"
+            android:background="@drawable/date" />
+
+
+
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/cardview_dark_background" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:text="@string/gndr" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:text="@string/colon" />
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_span="2" />
+
+
+
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/cardview_dark_background" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/Blood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/bld" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/colon" />
+
+        <Spinner
+            android:id="@+id/spinnerblood"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_span="2" />
+
+
+
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/cardview_dark_background" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/RH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/rh" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/colon" />
+
+
+        <Spinner
+            android:id="@+id/spinnerrh"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_span="2" />
+
+
+
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/cardview_dark_background" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txt_Note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/note" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/colon" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/notetakn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_span="4"
+            android:gravity="top"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:maxLines="10"
+            android:minLines="6"
+            android:paddingStart="5dp" />
+
+    </TableRow>
+
+
+
+
+</TableLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="black">#ff041010</color>
+    <color name="bodyborder">#ff94dbff</color>
+    <color name="greenborder">#99FF33</color>
+    <color name="background">#ff32324b</color>
+    <color name="oddback">#2196F3</color>
+    <color name="evenback">#FF9800</color>
+
+
+    <color name="colorRow">#80f442</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorPromo">#FFBAD2</color>
+    <color name="colorCategory">#B2FEFE</color>
+
+
+
+</resources>

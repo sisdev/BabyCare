@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="2dp"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="5dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:textSize="14sp"
+    >
+
+    <TextView
+        android:id="@+id/babyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baby Name"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:background="@color/colorPromo"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/date_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
+        />
+
+
+    <TextView
+        android:id="@+id/bloog_grp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/browser_actions_divider_color">
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_delete"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edituser"
+            android:layout_marginStart="10dp"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+
+
+        <Button
+            android:id="@+id/btn_vaccine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vaccine"
+            android:layout_marginEnd="10dp"
+             />
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.sisoft.babycare">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon12"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="in.sisoft.babycare.ActivityAppSplash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="in.sisoft.babycare.ActivityAppHome"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+         </activity>
+
+        <activity
+            android:name="in.sisoft.babycare.ActivityBabyManage"
+            android:label="@string/title_activity_baby_manage"
+            android:parentActivityName="in.sisoft.babycare.ActivityAppHome"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity
+            android:name="in.sisoft.babycare.ActivityBabyAU"
+            android:label="@string/title_activity_baby_a_u"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name="in.sisoft.babycare.ActivityBabyVaccineChart"
+            android:label="@string/title_activity_baby_a_u"
+            android:parentActivityName="in.sisoft.babycare.ActivityBabyManage"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="in.sisoft.babycare.ActivityBabyVaccineUpdate"
+            android:label="Update Vaccine Status"
+            android:parentActivityName="in.sisoft.babycare.ActivityBabyVaccineChart"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="in.sisoft.babycare.ActivityVaccineMainPage"
+            android:label="Vaccination Plan"
+            android:parentActivityName="in.sisoft.babycare.ActivityAppHome"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="in.sisoft.babycare.ActivityFeeding"
+            android:label="Feeding Information"
+            android:parentActivityName="in.sisoft.babycare.ActivityAppHome"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="in.sisoft.babycare.ActivityWebView1"
+            android:label="Feeding Information"
+            android:parentActivityName="in.sisoft.babycare.ActivityFeeding"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="in.sisoft.babycare.ActivityInformation"
+            android:label="App Information"
+            android:parentActivityName="in.sisoft.babycare.ActivityAppHome"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="in.sisoft.babycare.ActivityVaccineDetails"
+            android:label="App Information - Vaccine"
+            android:parentActivityName="in.sisoft.babycare.ActivityInformation"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <receiver android:name="in.sisoft.babycare.ReceiverReboot"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.REBOOT"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="in.sisoft.babycare.ReceiverReminderAlarm"
+            android:enabled="true"
+            android:exported="true">
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6926507421176998~9706137504"/>
+    </application>
+
+</manifest>

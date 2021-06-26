@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Vaccination and Growth Care</string>
+    <string name="nav_header_title">Baby Care App</string>
+    <string name="nav_header_subtitle">Vaccination | Growth</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="menu_baby">Baby Home</string>
+    <string name="menu_vaccine">Vaccines</string>
+    <string name="menu_feed">Feeding</string>
+    <string name="menu_features">Features</string>
+    <string name="menu_email">Email Us</string>
+    <string name="menu_share">Share</string>
+
+    <string name="menu_more">More Info</string>
+
+    <string name="title_activity_baby_manage">Manage Baby</string>
+    <string name="title_activity_baby_vaccine_chart">Baby Vaccine Chart</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_baby_a_u">Baby Add</string>
+
+
+    <string name="feedinfo">"These are general guidelines for feeding healthy babies. Feed your baby only one new food per week. Then you can find out if your baby has a problem with the new food. Talk with the nutritionist or health care provider for more information on feeding your baby. "</string>
+
+
+    <string name="baby_name">Baby Name (Required)</string>
+
+    <string name="gndr">Gender (Required)</string>
+
+    <string name="dob">Date of Birth (Required)</string>
+
+    <string name="bld">Blood Group (Optional) </string>
+
+    <string name="rh">RH Factor (Optional)</string>
+
+    <string name="note">Add Special Note (Optional) </string>
+
+    <string name="name">NAME</string>
+
+    <string name="date">Date</string>
+
+    <string name="dDate">Due Date</string>
+
+    <string name="bcg">BCG</string>
+
+    <string name="opv">OPV</string>
+
+    <string name="dpt">DPT</string>
+
+    <string name="hib">HiB</string>
+
+    <string name="given_date">Given Date</string>
+
+    <string name="update">Update</string>
+
+    <string name="our_android_app">Our Android Apps</string>
+
+    <string name="bit">Baby Immunisation Tracker India</string>
+
+    <string name="aa">Assesment App</string>
+
+    <string name="first_aid_help_line">First Aid Help Line</string>
+
+    <string name="ha">Health Recorder</string>
+
+    <string name="ta">Tutorial App (Coming Soon...)</string>
+
+    <string name="mob_number">Mobile:+91-9999-283-283</string>
+
+    <string name="list_baby">List of Babies</string>
+
+
+    <string name="colon">:</string>
+
+    <string name="vaccine">Vaccine</string>
+
+    <string name="duration">Duration</string>
+
+    <string name="sn">S.No</string>
+
+    <string name="mail">E-mail us</string>
+
+    <string name="share">Share</string>
+
+    <string name="aboutsis">www.sisoft.in</string>
+
+    <string name="aboutus_text">" We are mobile app developers. We provide mobile apps development of all types:native, web apps and hybrid on iPhone, Android and Blackberry platforms. ."</string>
+
+    <string name="baby_text">Baby</string>
+
+    <string name="vaccine_text">Vaccine</string>
+
+    <string name="feeding_text">Feeding</string>
+
+    <string name="info_text">Info</string>
+
+    <string name="information">Information</string>
+
+    <string name="vaccine_info">Vaccine Info</string>
+
+    <string name="feature_app">Feature of App</string>
+
+    <string name="about_us">About Us</string>
+
+    <string name="feedback">Feedbacks</string>
+
+    <string name="vaccine_chart">Vaccine Chart</string>
+
+    <string name="doctor">Doctor</string>
+
+    <string name="add_baby">Add Baby</string>
+
+    <string name="immunization">Immunization</string>
+
+    <string name="baby_modify">Baby Modify</string>
+
+    <string name="evd">Enter Vaccine Details</string>
+
+    <string name="baby_details">Baby Details</string>
+
+    <string name="months">18 To 24 Months</string>
+
+    <string name="vacine_info">Vaccine Information</string>
+
+    <string name="hepatitis_b">Hepatitis B</string>
+
+    <string name="measles">Measles</string>
+
+    <string name="vericella">Varicella</string>
+
+    <string name="pneumococcal">Pneumococcal</string>
+
+    <string name="influenza">Influenza</string>
+
+    <string name="mmr">MMR</string>
+
+    <string name="typhoid">Typhoid</string>
+
+    <string name="hepatitis_a">Hepatitis A</string>
+
+    <string name="spv">SPV</string>
+
+    <string name="rotavirus">Rotavirus</string>
+
+    <string name="item_email">Email - Schdule</string>
+
+    <string name="item_modify">Modify</string>
+
+    <string name="item_delet">Delete</string>
+
+    <string name="item_view">View</string>
+
+    <string name="food_baby">Foods For Babies</string>
+
+    <string name="birth_month">Birth To 4 Months</string>
+
+    <string name="birth__4_month">4 To 6 Months</string>
+
+    <string name="birth__6_month">6 To 9 Months</string>
+
+    <string name="birth__9_month">9 To 12 Months</string>
+
+    <string name="birth__12_month">12 To 18 Months</string>
+
+    <string name="birth__18_month">18 To 24 Months</string>
+
+    <string name="birth__24_month">24 Months</string>
+
+    <string name="title_activity_web_view">WebView</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_web_view1">WebView1Activity</string>
+
+    <string name="feed">FEEding INFO</string>
+
+    <string name="splash_text">Vaccination\n Growth\n Care</string>
+
+</resources>

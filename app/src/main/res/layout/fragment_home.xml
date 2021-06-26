@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:layout_alignParentTop="true"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/gl"
+    android:layout_gravity="center">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+>
+    <LinearLayout
+        android:id="@+id/ll_baby"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#ff00ff00"
+        android:orientation="vertical">
+
+        <ImageView android:layout_height="150.0dip"
+            android:layout_width="150.0dip"
+            android:id="@+id/item_image"
+            android:src="@drawable/baby"
+            android:paddingRight="10.0dip"
+            android:paddingTop="20.0dip"
+            android:paddingLeft="20.0dip"
+            android:contentDescription="TODO"
+            android:paddingEnd="10.0dip"
+            android:paddingStart="20.0dip" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Baby"
+            android:textColor="#ff000000"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_vaccine"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#ff0000ff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_height="150.0dip"
+            android:layout_width="150.0dip"
+            android:id="@+id/item_image2222"
+            android:src="@drawable/injec2"
+            android:paddingRight="20.0dip"
+            android:paddingTop="20.0dip"
+            android:paddingLeft="10.0dip"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Vaccine"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        >
+    <LinearLayout
+        android:id="@+id/ll_feeding"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#ffff0000"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_height="150.0dip"
+            android:layout_width="150.0dip"
+            android:id="@+id/item_image111"
+            android:src="@drawable/feed"
+            android:paddingRight="10.0dip"
+            android:paddingLeft="20.0dip"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Feeding"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+         />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#ff00fff0"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_height="150.0dip"
+            android:layout_width="150.0dip"
+            android:id="@+id/item_im11age1"
+            android:src="@drawable/info1"
+            android:paddingRight="20.0dip"
+            android:paddingLeft="10.0dip"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Info"
+            android:textColor="#ff000000"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        >
+    <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6926507421176998/8459845305">
+    </com.google.android.gms.ads.AdView>
+
+<!--  Prod Unit : ca-app-pub-6926507421176998/1835881186 -->
+<!--  Test Unit : ca-app-pub-3940256099942544/6300978111 -->
+
+    </LinearLayout>
+</LinearLayout>

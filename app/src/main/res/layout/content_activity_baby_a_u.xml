@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bodyborder"
+            android:text="@string/baby_name" />
+
+
+        <EditText
+            android:id="@+id/babyname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:hint="Enter Baby Name"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bodyborder"
+            android:layout_marginTop="5dp"
+            android:text="@string/dob" />
+
+        <Button
+            android:id="@+id/btn_baby_DOB"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/bodyborder"
+            android:text="@string/gndr" />
+
+
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+        />
+
+
+     <TextView
+            android:id="@+id/Blood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+         android:background="@color/bodyborder"
+            android:text="@string/bld" />
+
+        <Spinner
+            android:id="@+id/spinnerblood"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+ />
+
+        <TextView
+            android:id="@+id/RH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/bodyborder"
+            android:text="@string/rh" />
+
+        <Spinner
+            android:id="@+id/spinnerrh"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_span="2" />
+
+
+        <TextView
+            android:id="@+id/txt_Note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bodyborder"
+            android:layout_margin="5dp"
+            android:text="@string/note" />
+
+
+
+
+        <EditText
+            android:id="@+id/notetakn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:imeOptions="actionDone"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            />
+
+
+</LinearLayout>

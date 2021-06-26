@@ -1,0 +1,69 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+<style name="bodytext">
+
+    <item name="android:textSize">16.0sp</item>
+
+    <item name="android:textColor">#ffffffff</item>
+
+    <item name="android:paddingLeft">3.0dip</item>
+
+    <item name="android:paddingBottom">3.0dip</item>
+
+    <item name="android:shadowColor">#ff74b0cf</item>
+
+    <item name="android:shadowDx">1.0</item>
+
+    <item name="android:shadowDy">1.0</item>
+
+    <item name="android:shadowRadius">1.0</item>
+
+</style>
+
+<style name="ButtonText">
+
+        <item name="android:textSize">16.0sp</item>
+
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textColor">#ffe6e600</item>
+
+        <item name="android:gravity">center</item>
+
+    <item name="android:layout_marginTop">20dp</item>
+
+    <item name="android:layout_width">250dp</item>
+
+        <item name="android:layout_height">50dp</item>
+
+        <item name="android:shadowColor">#ff000000</item>
+
+        <item name="android:shadowDx">1.0</item>
+
+        <item name="android:shadowDy">1.0</item>
+
+        <item name="android:shadowRadius">2.0</item>
+
+</style>
+
+    <style name="text">
+
+        <item name="android:textSize">18.0sp</item>
+
+        <item name="android:textColor">#ff4a004a</item>
+
+        <item name="android:paddingLeft">3.0dip</item>
+
+        <item name="android:paddingBottom">3.0dip</item>
+
+    </style>
+
+
+</resources>
